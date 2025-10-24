@@ -3,21 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portofolio Aditya</title>
 
     <!-- css Eksternal File -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
 <body>
 
     <!-- Header Content -->
-    <header></header>
+    <header class="main-header p-[8px]">
+        <!-- Logo Website -->
+        <div class="main-logo"></div>
+
+        <!-- Navigation Menu -->
+        <nav class="flex gap-1">
+            <a class="border rounded p-2" href="#home-page">Home</a>
+            <a class="border rounded p-2" href="#profile-section">Our Profile</a>
+            <a class="border rounded p-2" href="#portofilio-section">Portofolio</a>
+            <a class="border rounded p-2" href="#messege-section">Messege Us</a> 
+        </nav>
+    </header>
+
+    <hr>
 
     <!-- Main Content -->
-    <main></main>
+    <main>
+        <!-- Home -->
+         <section id="home-page" class="hero-section p-4 min-h-[500px]">
+            <h1 class="text-3xl font-bold mb-4">Welcome to My Portofolio</h1>
+            <p class="text-lg">This is a brief introduction about myself and my work.</p>
+        </section>
+
+        <hr>
+
+        <!-- Our Profile -->
+         <section id="profile-section" class="hero-section p-4 min-h-[500px]">
+            <h1 class="text-2xl font-bold mb-4">Our Profile</h1>
+            <p class="text-lg">Detail about my brackground, skills, and experiences.</p>
+        </section>
+
+        <hr>
+
+        <!-- Portofolio -->
+         <section id="portofilio-section" class="hero-section p-4 min-h-[500px]">
+            <h1 class="text-2xl font-bold mb-4">Portofolio</h1>
+            <p class="text-lg">Showcase if my project and accomplishments.</p>
+        </section>
+
+        <!-- Messege Us -->
+         <section id="messege-section" class="hero-section p-4 min-h-[500px]">
+            <h1 class="text-2xl font-bold mb-4">Messege Us</h1>
+            <p class="text-lg">Feel free to reach out for collaborations or inquiries.</p>
+        </section>
+    </main>
 
     <!-- Footer Content -->
-    <footer></footer>
+    <footer>
+        <div class="footer-content p-4 text-center">
+            <p class="text-sm">&copy; 2025 Aditya's Portofolio. All right reserved.</p>
+        </div>
+    </footer>
 
     <!-- Javascript External File -->
     <script src="js/script.js"></script>

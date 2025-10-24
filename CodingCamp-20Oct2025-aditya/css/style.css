@@ -1,0 +1,14 @@
+.main-logo {
+    width: 75px;
+            height: 75px;
+            background-color: aqua;
+            border-radius: 50%;
+            background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYUSmZXOjeGotDzGjPboKMlPcU8a-jCYnFi1Lc5lFk7NkVYIgLNY0PxLJfagrVUtG9evBuhtEp0FVO_17KzYaBVeGiJlbAWEOZNSTx4wOhsHU-vHZCg80I85aJeIaEd8mIWE9CGcUt3LM/s1600/A.jpg);
+            background-size: cover;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
