@@ -12,3 +12,24 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.backgroud {
+    background-color: black;
+    background-size: cover;
+}
+
+.img-game {
+    height: 340px;
+    object-fit: cover;
+    width: calc(100%/3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yt-logo {
+    width: 375px;
+    height: 175px;
+    border-radius: 55%;
+    background-size: cover;
+}

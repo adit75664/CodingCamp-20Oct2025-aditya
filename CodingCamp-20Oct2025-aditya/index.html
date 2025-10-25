@@ -15,16 +15,16 @@
 <body>
 
     <!-- Header Content -->
-    <header class="main-header p-[8px]">
+    <header class="main-header p-[8px] bg-black">
         <!-- Logo Website -->
         <div class="main-logo"></div>
 
         <!-- Navigation Menu -->
-        <nav class="flex gap-1">
-            <a class="border rounded p-2" href="#home-section">Home</a>
-            <a class="border rounded p-2" href="#profile-section">Our Profile</a>
-            <a class="border rounded p-2" href="#portofilio-section">Portofolio</a>
-            <a class="border rounded p-2" href="#message-section">Message Us</a> 
+        <nav class="flex gap-1 text-white">
+            <a class="border rounded p-2 border-black" href="#home-section">Home</a>
+            <a class="border rounded p-2 border-black" href="#profile-section">My Profile</a>
+            <a class="border rounded p-2 border-black" href="#portofilio-section">Portofolio</a>
+            <a class="border rounded p-2 border-black" href="#message-section">Message Us</a> 
         </nav>
     </header>
 
@@ -33,31 +33,52 @@
     <!-- Main Content -->
     <main>
         <!-- Home -->
-         <section id="home-section" class="hero-section p-4 min-h-[500px]">
-            <h1 class="text-3xl font-bold mb-4"><span id="greet-name"></span>Welcome to My Portofolio</h1>
-            <p class="text-lg">This is a brief introduction about myself and my work.</p>
+         <section id="home-section" class="hero-section min-h-[500px] text-center">
+            <div class="backgroud min-h-[500px] p-6 text-white">
+                <h1 class="text-3xl font-bold mb-4"><span id="greet-name"></span>Welcome to My Website</h1>
+                <p class="text-lg">This website is my practice, I only fill this website with games that I play. if you want to ask about the games here, please fill out the form below.</p>
+            <div class="img-game">
+                <img src="img/1.jpg" alt="">
+                <img src="img/2.png" alt="">
+                <img src="img/3.jpg" alt="">
+                <img src="img/4.jpg" alt="">
+                <img src="img/5.jpg" alt="">
+            </div>
+        </div>
+
+            
         </section>
 
         <hr>
 
-        <!-- Our Profile -->
-         <section id="profile-section" class="hero-section p-4 min-h-[500px]">
-            <h1 class="text-2xl font-bold mb-4">Our Profile</h1>
-            <p class="text-lg">Detail about my brackground, skills, and experiences.</p>
+        <!-- My Profile -->
+         <section id="profile-section" class="hero-section min-h-[500px]">
+            <div class="backgroud min-h-[500px] p-4 text-white text-center">
+                <h1 class="text-2xl font-bold mb-4">My Profile</h1>
+                <p class="text-lg">Hi! My name is Aditya. I currently work at ShopeeFood as a delivery driver, but my true passion is to become a Software Engineer.
+                                    Although I don’t have professional experience in the software field yet, I’m genuinely interested in programming and technology. I’m consistently learning and improving my skills — from understanding programming fundamentals and building small projects to exploring how real-world applications are developed.
+                                    For me, learning is a lifelong journey. I believe that with hard work, dedication, and perseverance, I can turn my dream of becoming a Software Engineer into reality.</p>
+            </div>
         </section>
 
         <hr>
 
         <!-- Portofolio -->
-         <section id="portofilio-section" class="hero-section p-4 min-h-[500px]">
-            <h1 class="text-2xl font-bold mb-4">Portofolio</h1>
-            <p class="text-lg">Showcase if my project and accomplishments.</p>
+         <section id="portofilio-section" class="hero-section min-h-[500px] text-center">
+            <div class="backgroud min-h-[500px] p-4 text-white">
+                <h1 class="text-2xl font-bold mb-4">Portofolio</h1>
+                <p>If you like to see some of my content, feel free to check out my YouTube channel!</p>
+                <div class="yt-logo p-8">
+                    <a href="https://www.youtube.com/@AdiPraha"><img src="https://i.pinimg.com/1200x/a6/fa/83/a6fa836841354ee1e0fb4478ea1473a1.jpg" alt=""></a>
+                </div>
+            </div>
         </section>
 
         <!-- message Us -->
-         <section id="message-section" class="hero-section p-4 min-h-[500px]">
-            <h1 class="text-2xl font-bold mb-4">Message Us</h1>
-            <p class="text-lg">Feel free to reach out for collaborations or inquiries.</p>
+         <section id="message-section" class="hero-section min-h-[500px]">
+            <div class="backgroud min-h-[500px] p-4 text-white text-center">
+                <h1 class="text-2xl font-bold mb-4">Message Us</h1>
+                <p class="text-lg">Send message if want ask something about my website or games here!</p>
 
             <form>
                 <label for="name" class="block mb-2">Name:</label>
@@ -71,15 +92,20 @@
             
             </form>
 
-            <button onclick="validateForm();" class="bg-blue-500 text-white p-2 rounded">Send message</button>
+            </div>
 
+            <div class="bg-black p-4">
+                <button onclick="validateForm();" class="bg-blue-500 text-white p-2 rounded">Send message</button>
+            </div>
+
+            
         </section>
     </main>
 
     <!-- Footer Content -->
     <footer>
-        <div class="footer-content p-4 text-center">
-            <p class="text-sm">&copy; 2025 Aditya's Portofolio. All right reserved.</p>
+        <div class="footer-content p-4 text-center bg-black">
+            <p class="text-sm text-white">&copy; 2025 Aditya's Portofolio. All right reserved.</p>
         </div>
     </footer>
 
