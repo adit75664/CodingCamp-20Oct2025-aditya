@@ -15,6 +15,8 @@ function validateForm() {
     const email = document.getElementById('email-input').value;
     const message = document.getElementById('message-input').value;
 
+    console.log(name,email,message);
+
     //check if any field is empty
     if (name === "" || email === "" || message === "") {
         //show alert if any field empty
